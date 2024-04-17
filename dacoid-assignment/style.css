@@ -1,0 +1,352 @@
+. {
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+}
+
+. {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+}
+
+.navbar {
+    Width: 375px;
+    height: 44px;
+    background-color: #FCFCFC;
+    display: flex;
+}
+
+.statusbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 375px;
+}
+
+.status {
+    padding-left: 250px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.network {
+    width: 17px;
+    height: 10.67px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    width: 375px;
+    height: 300px;
+    background: #FCFCFC;
+
+}
+
+.skip {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 60px;
+    text-decoration: underline;
+    color: #9FB2FF;
+    background-color: #FCFCFC;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    height: 282px;
+    top: 132px;
+    left: 46px;
+    background-color: #FCFCFC;
+
+}
+
+.heading {
+    width: 160px;
+    height: 24px;
+    top: 499px;
+    left: 16px;
+    background-color: #FCFCFC;
+    color: #2C2B2B;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    background-color: #FCFCFC;
+
+}
+
+.para {
+    width: 343px;
+    height: 60px;
+    top: 538px;
+    left: 16px;
+    color: #787878;
+    font-family: Montserrat;
+    background-color: #FCFCFC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #FCFCFC;
+    width: 375px;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    background-color: #FCFCFC;
+   
+}
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    height: 234.61px;
+    top: 156px;
+    left: 11px;
+    background-color: #FCFCFC;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 375px;
+    height: 800px;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #FCFCFC;
+}
+
+.newaccount {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    width: 163px;
+    height: 23px;
+    top: 68px;
+    left: 16px;
+    color: #2C2B2B;
+
+}
+
+.box {
+    width: 343px;
+    height: 50px;
+    top: 135px;
+    left: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #F1F1F1;
+    
+}
+
+
+.nextpg {
+    width: 343px;
+    height: 50px;
+    top: 574px;
+    left: 16px;
+    border-radius: 12px;
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    border: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    gap: 10px;
+}
+
+.google {
+    background-color: #FCFCFC;
+    width: 44px;
+    height: 44px;
+    top: 686px;
+    left: 134px;
+    border-radius: 8px;
+    border: 1px solid #7F7F7F;
+}
+
+.facebook {
+    background-color: #FCFCFC;
+    width: 44px;
+    height: 44px;
+    top: 686px;
+    left: 134px;
+    border-radius: 8px;
+    border: 1px solid #7F7F7F;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+.nextpg1 {
+    width: 343px;
+    height: 50px;
+    top: 574px;
+    left: 16px;
+    border-radius: 12px;
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    border: none;
+
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343px;
+    height: 50px;
+    top: 135px;
+    left: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #F1F1F1;
+    padding: 10px;
+    
+}
+.workouts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 375px;
+    gap:50px;
+    background-color:#FCFCFC
+}
+.chart{
+    width: Fixed (343px)px;
+height: Fixed (89.98px)px;
+top: 172.48px;
+left: 16px;
+gap: 4.07px;
+opacity: 0px;
+
+}
+.frame{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+
+    display: flex;
+    padding: 10px;
+    Width:328.75px;
+Height:50px;
+}
+.upworkout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+}
+.body-work{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box2{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 343px;
+    height: 50px;
+    top: 135px;
+    left: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color:#FCFCFC;
+    padding: 10px;}
+.footer1{
+    display:flex;
+    flex-direction:column;  
+    justify-content: space-around;
+    width: 343px;
+height: 124px;
+border-radius: 12px;
+background: linear-gradient(90.95deg, #DEE5FF 0.79%, #809AFF 99.18%);
+}
+.topp{display:flex;
+    flex-direction:row;  
+    justify-content: space-around;
+    width: 343px;}
+.search{width: 343px;
+    height: 70px;
+    display: flex;
+    }
+.ellipse{
+    width: 100px;
+height: 100px;
+}
+.grp5{
+    display:flex;
+    justify-content: center;
+}
+.feb{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 335px;
+}
+.time{
+    font-family: Montserrat;
+font-size: 12px;
+font-weight: 600;
+line-height: 14.63px;
+width: 345px;
+height: 15px;
+top: 326px;
+left: 16px;
+background-color:#FCFCFC;
+}
+.face{
+    width: 22px;
+height: 24px;
+top: 431px;
+left: 16px;
+gap: 4px;
+opacity: 0px;
+
+}
+@media only screen and (max-width: 767px) {
+    .statusbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .network {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .para {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+}
